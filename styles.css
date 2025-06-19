@@ -215,7 +215,7 @@ footer.site-footer {
 
 .why-it-works-section {
   background: linear-gradient(to right,rgba(234, 239, 239, 0.9), rgba(253, 242, 227, 0.4)),
-              url('/images/imagebgwhyworks.jpg');
+              url('images/imagebgwhyworks.jpg');
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 12px rgba(96, 108, 93, 0.08);
@@ -975,7 +975,7 @@ article {
                 rgba(253, 250, 246, 0.85),
                 rgba(253, 250, 246, 0.15)
               ),
-              url('/images/imagebggain.jpg');
+              url('images/imagebggain.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
