@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar">
+  <!-- <nav class="navbar">
     <div class="navbar-container">
       <a href="#home" class="navbar-logo">
         <img src="images/klogo.png" alt="Logo" class="logo-img" />
@@ -27,7 +27,57 @@
         <li><a href="#contact" class="navbar-link navbar-contact-btn">Contact Me</a></li>
       </ul>
     </div>
+  </nav> -->
+
+  <!-- Include Font Awesome in your <head> section -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Navbar HTML -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#home" class="navbar-logo">
+        <img src="images/klogo.png" alt="Logo" class="logo-img" />
+      </a>
+
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <ul class="navbar-list" id="navbar-menu">
+        <li><a href="#home" class="navbar-link">Home</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#work" class="navbar-link">Work With Me</a></li>
+        <li><a href="#contact" class="navbar-link navbar-contact-btn">Contact Me</a></li>
+
+        <!-- Social icons for mobile -->
+        <li class="navbar-social-mobile">
+          <a href="https://www.instagram.com/kirancoaching/profilecard/?igsh=NGQ1cnlscnc4Y3du" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook"> -->
+          <!-- <i class="fab fa-facebook"></i> -->
+          </a>
+          <!-- <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"> -->
+          <!-- <i class="fab fa-linkedin"></i> -->
+          </a>
+        </li>
+      </ul>
+
+      <!-- Social icons for desktop -->
+      <div class="navbar-social">
+        <a href="https://www.instagram.com/kirancoaching/profilecard/?igsh=NGQ1cnlscnc4Y3du" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook"> -->
+        <!-- <i class="fab fa-facebook"></i> -->
+        </a>
+        <!-- <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"> -->
+        <!-- <i class="fab fa-linkedin"></i> -->
+        </a>
+      </div>
+    </div>
   </nav>
+
 
   <header class="site-header mb-section scroll-margin" id="home">
     <!-- <h1 class="site-title">KIRAN COACHING</h1> -->
@@ -35,7 +85,7 @@
     <p class="site-subtitle">Awaken Your Inner Light</p>
     <p class="site-tagline">Because healing your nervous system and your relationships is how you finally come home to
       yourself.</p>
-    <a href="contact.html" class="cta-button">Contact Me</a>
+    <a href="#contact" class="cta-button">Contact Me</a>
   </header>
 
   <section class="about-section scroll-margin" id="about">
@@ -397,8 +447,8 @@
   </section>
 
 
-  
-  <section class="contact-section scroll-margin" id="contact">
+  <!-- Temporariraly disabled -->
+  <!-- <section class="contact-section scroll-margin" id="contact">
     <h2>Contact Me</h2>
     <p class="contact-intro">
       No pressure — just a gentle space to explore whether this healing journey is right for you.
@@ -423,9 +473,24 @@
 
       <button type="submit" class="cta-button cta-contact-button">Send Message</button>
     </form>
+  </section> -->
+
+
+  <section class="contact-section scroll-margin" id="contact">
+    <h2>Schedule Your Free 15-Minute Consultation</h2>
+    <p class="contact-intro">
+      No pressure — just a gentle space to explore whether this healing journey is right for you.
+    </p>
+
+    <div class="consultation-email">
+      <p>
+        Reach out at:
+        <a href="mailto:abc&#64;email&#46;com">
+          heal<span style="display:none;">REMOVE</span>@kirancoaching.com
+        </a>
+      </p>
+    </div>
   </section>
-
-
 
 
   <footer class="site-footer">
